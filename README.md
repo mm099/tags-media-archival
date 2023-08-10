@@ -11,7 +11,7 @@ This is a Python script that will (mostly) automate archiving of Internet webpag
 
 # How to setup Google Drive
 
-Create a folder in your Google Drive. The script expects the first row of your spreadsheet to be formatted like this.
+Create a folder in your Google Drive and a new spreadsheet. The script expects the first row of your spreadsheet to be formatted like this.
 
 ![alt text](assets/sheet1.png)
 ![alt text](assets/sheet2.png)
