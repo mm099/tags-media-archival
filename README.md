@@ -47,9 +47,7 @@ The categories that are important are date, URL, filename (used to name the uplo
 
 1. Install Python 3 and download this repository.
 
-2. Follow [these steps](https://developers.google.com/drive/api/quickstart/python) to set up up the Google Drive and Sheets APIs. (The steps are the same for both so you only need to do it once.)
-
-You can stop once you've obtained the `credentials.json` file, which is all you really need. Store the file in the project directory.
+2. Follow [these steps](https://developers.google.com/drive/api/quickstart/python) to set up up the Google Drive and Sheets APIs. (The steps are the same for both so you only need to do it once.) You can stop once you've obtained the `credentials.json` file, which is all you really need. Store the file in the project directory.
 
 5. Create and activate a Python virtual environment for the project as follows.
 
