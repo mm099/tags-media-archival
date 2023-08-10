@@ -4,7 +4,7 @@ This is a Python script that will (mostly) automate archiving of Internet webpag
 
 - Open a Google Sheets spreadsheet (which must be formatted in a specific way, [see below](#how-to-setup-google-drive)) containing links to desired webpages, one per row
 - Open a webpage in Chrome
-- Save the page as PNG, PDF, and MHTML
+- Save the page as PNG, PDF, and MHTML (same filename but different extension)
 - Upload the result to a Google Drive in an appropriate folder organized by year and month (YYYY/MM/)
 - Update the spreadsheet to indicate successful archival
 - Repeat for each page
