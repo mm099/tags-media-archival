@@ -49,7 +49,7 @@ The categories that are important are date, URL, filename (used to name the uplo
 
 2. Follow [these steps](https://developers.google.com/drive/api/quickstart/python) to set up up the Google Drive and Sheets APIs. (The steps are the same for both so you only need to do it once.) You can stop once you've obtained the `credentials.json` file, which is all you really need. Store the file in the project directory.
 
-5. Create and activate a Python virtual environment for the project as follows.
+3. Create and activate a Python virtual environment for the project as follows.
 
 ```
 cd <project-directory>
@@ -68,7 +68,11 @@ pip install pyautogui
 pip install pyperclip
 ```
 
-5. Create a text file in the project directory named `settings.txt`. You need to add the ID of your Google Drive folder and the ID of your spreadsheet as follows. (You can find IDs in URLs when you open Google Drive files and folders in your browser.)
+5. Save the [GoFullPage](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl) and [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) extensions as CRX files in your project directory using [this](https://standaloneinstaller.com/online-tools/crx-downloader) tool. Name the files `GoFullPage.crx` and `UblockOrigin.crx` respectively.
+
+Note: GoFullPage is needed for PNG screenshots but uBlock Origin is not really necessary. You can get rid of this by erasing the line `options.add_extension('./UblockOrigin.crx')` from the script.
+
+6. Create a text file in the project directory named `settings.txt`. You need to add the ID of your Google Drive folder and the ID of your spreadsheet as follows. (You can find IDs in URLs when you open Google Drive files and folders in your browser.)
 
 ```
 spreadsheetId = <ID>
