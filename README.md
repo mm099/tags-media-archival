@@ -1,5 +1,7 @@
 # Media Archival Tool
 
+![media](assets/video.gif)
+
 This is a Python script that will (mostly) automate archiving of Internet webpages. Specifically, it automates the following process:
 
 - Open a Google Sheets spreadsheet (which must be formatted in a specific way, [see below](#how-to-setup-google-drive)) containing links to desired webpages, one per row
